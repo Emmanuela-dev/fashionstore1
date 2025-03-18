@@ -1,0 +1,117 @@
+body{
+    
+    background-repeat: repeat-x;
+    background-size: contain ;
+    background-image:url('images/store.jpg') ;
+    background-attachment: fixed;
+    opacity: 1.0;
+}
+.main {
+    width: 100%;
+    background: linear-gradient(to right,rgba(228, 19, 19, 0.5),rgba(231, 135, 10, 0.5),tomato,rgb(230, 217, 44));
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    margin: 0 15px;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+  
+}
+
+.dropbtn {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #e05548;
+}
+
+
+
+h1, h2, h3 {
+    color:rgb(8, 8, 8);
+    text-align: center;
+    text-decoration-color: #ddd;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.log{
+    float: right;
+
+}
