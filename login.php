@@ -39,6 +39,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             margin: 0;
             
         }
+         a{
+            text-decoration: none;
+            margin-left: 760px;
+          }
+          p{
+            margin-left: 700px;
     </style>
 </head>
 <body>
