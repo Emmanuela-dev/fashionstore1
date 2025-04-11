@@ -221,7 +221,7 @@ footer {
 
 /* Form Styles */
 form {
-    float: right;
+    float:center;
     margin-right: 20px;
     max-width: 400px;
     margin: 20px auto;
